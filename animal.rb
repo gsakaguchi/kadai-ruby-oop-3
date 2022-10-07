@@ -11,7 +11,7 @@ class Animal
   
    # オブジェクトのメソッド（処理）
   def say
-    puts "#{self.name}です。 #{self.age}です。"
+    puts "#{self.name}です。#{self.age}歳です。"
   end
   
 end

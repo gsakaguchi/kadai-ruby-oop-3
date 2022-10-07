@@ -5,7 +5,7 @@ class Human < Animal
   include Thinkable
   
   # オブジェクトの変数（値）
-  attr_accessor :name, :age, :hobby
+  attr_accessor :hobby
   
   def initialize(name,age,hobby)
     self.name = name
